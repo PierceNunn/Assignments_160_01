@@ -1,0 +1,54 @@
+{
+    "name": "Assignment1Controls",
+    "maps": [
+        {
+            "name": "Assignment",
+            "id": "9a1eff56-22a6-4308-a459-63ec188a9452",
+            "actions": [
+                {
+                    "name": "SpawnCrate",
+                    "type": "Button",
+                    "id": "e87e9d18-035f-42c8-8622-95ae006f392c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "DestroyCrates",
+                    "type": "Button",
+                    "id": "1a1657b0-0c9f-4c7c-8eac-185375829e5b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd94d8c7-21db-4baa-84c8-411a7f7d3467",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Tap(duration=0.5)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnCrate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b303f2c5-be46-4148-9e79-177ee42e2c62",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DestroyCrates",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
